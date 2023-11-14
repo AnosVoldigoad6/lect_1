@@ -35,3 +35,40 @@ to use const .
     arrays
     functions
     many more...
+
+>
+# Function
+## function sum() {
+    return 2+3;
+     }
+    console.log(sum());
+
+    let sum2 =() =>{
+    return 4+4;
+     }
+     console.log(sum2());
+
+     let sum3 =() =>{
+    return -2+4;
+    }
+    console.log(sum3());
+
+
+
+
+    (
+    function () {
+        console.log('Hello World');
+    }
+     ) ();
+    function sumNums(num){
+    let a
+
+    for(let i=1; i<=num; i++){
+        a = i
+    }
+    return a
+    }
+    console.log(sumNums(10));    
+
+    
